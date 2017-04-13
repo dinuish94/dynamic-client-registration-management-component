@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="identity.oauth.dcrm" name="%identity.oauth.dcrm.name" description="%identity.oauth.dcrm.description"/>
+    <Designate pid="identity.oauth.dcrm">
+        <Object ocdref="identity.oauth.dcrm"/>
+    </Designate>
+</metatype:MetaData>

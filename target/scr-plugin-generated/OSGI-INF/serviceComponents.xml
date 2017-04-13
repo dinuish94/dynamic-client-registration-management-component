@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="identity.oauth.dcrm">
+        <implementation class="org.wso2.carbon.identity.oauth.dcrm.internal.DCRMServiceComponent"/>
+        <property name="service.pid" value="identity.oauth.dcrm"/>
+        <reference name="identity.application.management.service" interface="org.wso2.carbon.identity.application.mgt.ApplicationManagementService" cardinality="1..1" policy="dynamic" bind="setApplicationManagementService" unbind="unsetApplicationManagementService"/>
+    </scr:component>
+</components>
